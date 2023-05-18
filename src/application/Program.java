@@ -38,6 +38,7 @@ public class Program {
 		attack = sc.nextInt();
 		
 		System.out.println("ARMADURA: ");
+		int armor = sc.nextInt();
 		Champion champion2 = new Champion(name, life, attack, armor);
 		System.out.println();
 		
